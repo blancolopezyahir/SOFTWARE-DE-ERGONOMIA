@@ -1,0 +1,1 @@
+{"scripts":{"dev":"node scripts/dev-server.mjs","build":"node scripts/validate.mjs","preview":"node scripts/dev-server.mjs","inspect:model":"node scripts/inspect-glb-rig.mjs"},"dependencies":{},"devDependencies":{}}
