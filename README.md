@@ -18,10 +18,10 @@ Abre la URL que muestre el servidor local, normalmente `http://localhost:5173`.
 El modelo principal debe colocarse en:
 
 ```text
-public/models/humano-rula-rigged.glb
+public/models/final low poly character rigged.glb
 ```
 
-La ruta editable está definida en `src/config/humanModelConfig.ts` (`modelPath`) y replicada en `src/main.js` para la versión ejecutable sin build. La app carga el GLB con Three.js + `GLTFLoader` mediante el import map de `index.html`. Si el GLB no está disponible o el loader no puede inicializarse, se muestra un mensaje claro y se conserva el maniquí CSS-3D anterior como fallback.
+La ruta editable está definida en `src/config/humanModelConfig.ts` (`modelPath`) y replicada en `src/main.js` para la versión ejecutable sin build; actualmente apunta a `/public/models/final low poly character rigged.glb`. La app carga el GLB con Three.js + `GLTFLoader` mediante el import map de `index.html`. Si el GLB no está disponible o el loader no puede inicializarse, se muestra un mensaje claro y se conserva el maniquí CSS-3D anterior como fallback.
 
 Para cambiar por otro modelo:
 
