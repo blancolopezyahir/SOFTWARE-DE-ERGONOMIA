@@ -1,5 +1,5 @@
 export const humanModelConfig = {
-  modelPath: '/public/models/final low poly character rigged.glb',
+  modelPath: '/models/final%20low%20poly%20character%20rigged.glb',
   initial: {
     fitHeight: 2.65,
     rotation: [0, 0, 0] as [number, number, number],

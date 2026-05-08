@@ -21,7 +21,13 @@ El modelo principal debe colocarse en:
 public/models/final low poly character rigged.glb
 ```
 
-La ruta editable está definida en `src/config/humanModelConfig.ts` (`modelPath`) y replicada en `src/main.js` para la versión ejecutable sin build; actualmente apunta a `/public/models/final low poly character rigged.glb`. La app carga el GLB con Three.js + `GLTFLoader` mediante el import map de `index.html`. Si el GLB no está disponible o el loader no puede inicializarse, se muestra un mensaje claro y se conserva el maniquí CSS-3D anterior como fallback.
+Ruta web usada por `GLTFLoader`:
+
+```text
+/models/final%20low%20poly%20character%20rigged.glb
+```
+
+La ruta editable está definida en `src/config/humanModelConfig.ts` (`modelPath`) y replicada en `src/main.js` para la versión ejecutable sin build; actualmente apunta a `/models/final%20low%20poly%20character%20rigged.glb`. La app carga el GLB con Three.js + `GLTFLoader` mediante el import map de `index.html`. Si el GLB no está disponible o el loader no puede inicializarse, se muestra un mensaje claro y se conserva el maniquí CSS-3D anterior como fallback.
 
 Para cambiar por otro modelo:
 
